@@ -1,0 +1,26 @@
+{
+    "name": "lexty/yandex-dns",
+    "description": "PHP library for working with Yandex DNS API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Medvedev Alexandr",
+            "email": "alexandr.mdr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Lexty\\YandexDns\\": "src/",
+            "Lexty\\YandexDns\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
